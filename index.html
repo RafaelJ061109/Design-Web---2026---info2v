@@ -1,65 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rafael Joaquim - Portifolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 1 – Tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
 
-  <header>
-  <div class="inner-header">
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-behance"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <!-- O card será inserido aqui pelos alunos -->
 
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">Estudos de Casos</a></li>
-        <li><a href="#">Trabalhos</a></li>
-        <li><a href="#">Entre em contato</a></li>
-      </ul>
-    </nav>
-
-    <button class="mobile-menu" aria-label="Abrir menu">
-      <i class="fas fa-bars"></i>
-      <span class="menu-text">Menu</span>
-    </button>
-  </div>
-</header>
-
-
-  <main>
-    <section class="profile">
-      <div class="profile-text">
-        <h1>Rafael <span>Joaquim</span></h1>
-        <h2>Estudante IFRN - Informatica para internet</h2>
-        <p>
-          Sou um estudante do segundo ano de Informatica, atualmente não domino muito a area, pretendo trabalhar nela. Estou criando esse site de Portifolio como a primeira atividade de design para por em prática o que tenho conhecimento até agora
-        </p>
-        <a href="#" class="cta">Meus trabalhos <i class="fas fa-arrow-right"></i></a>
+    <div class="max-w-sm bg-white rounded-lg shadow-lg p-6 text-center">
+        <img src="https://picsum.photos/seed/1/100" alt="Foto de perfil" class="w-24 h-24 rounded-full mx-auto mb-4">
+        <h2 class="text-2xl font-bold text-gray-800">Rafael Joaquim</h2>
+        <p class="text-gray-600 mt-2">Desenvolvedor Web em aprendizado</p>
+        <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Seguir
+        </button>
       </div>
-
-      <div class="profile-image">
-        <img src="assets/img/perfil.jpeg" alt="Foto de perfil">
-      </div>
-    </section>
-
-    <section class="companies">
-      <h3>Coloquei isso aqui:</h3>
-      <div class="company-logos">
-        <img src="assets/img/clickup.png" alt="ClickUp" class='clickup'>
-        <img src="assets/img/dropbox.png" alt="Dropbox">
-        <img src="assets/img/paychex.png" alt="Paychex">
-        <img src="assets/img/elastic.png" alt="Elastic">
-        <img src="assets/img/stripe.png" alt="Stripe">
-      </div>
-    </section>
-  </main>
-
 </body>
+
 </html>
